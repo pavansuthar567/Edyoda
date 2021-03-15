@@ -1,0 +1,423 @@
+1. Question: List the significant goals of the HTML5 specification.
+Answer: Following are the most important goals of the HTML5 specification:
+
+Better semantic support for the web page structure with the introduction of new structural element tags
+Delivering a stricter parsing standard for:
+Ensuring consistent cross-browser behaviour
+Offering excellent backward compatibility with documents written as per older HTML standards
+Simplifying error handling
+For replacing HTML4, XHTML, and the HTML DOM Level 2
+Offer interactive and rich content, such as videos and animation, without dependency on plugins
+Seamless operation across multiple devices and platforms
+
+2. Question: Enumerate some of the most important new features in HTML5.
+Answer: Some of the best new features brought by the HTML5 specification are:
+
+Better error handling
+Enhanced support for embedding audio, graphics, and video content via <audio>, <canvas>, and <video> tags
+Extensions for the JavaScript API, such as for caching, drag-and-drop, geolocation, and storage
+More markup for replacing scripting
+Multi-device support
+New:
+Attributes for better document structure, such as <article>, <bdi>, <figcaption>, and <meter>
+Form controls, including <calendar>, <email>, <search>, and <url>
+Parsing rules for enhancing flexibility
+Semantic tags for complementing the structural logic of modern web applications, such as <aside>, <header>, <main>, and <section>
+Standard features like that of CSS, DOM, HTML, and J.S. for reducing the requirement of external plugins
+Support for:
+Offline editing
+Protocol and MIME handler registration
+Web SQL
+Web workers
+P.S. - Know what makes Novi HTML Visual Editor a great choice for web developers.
+
+3. Question: What are the differences between HTML5 and HTML?
+Answer: Following are the various differences between HTML and HTML5:
+
+1. Attributes
+
+Attributes of Async, charset, and ping are available in HTML5. The same is not available in HTML.
+
+1. Doctype Declaration
+
+HTML features a long and complicated doctype declaration. The same is simple and easy in HTML5.
+
+2. Drag-and-Drop
+
+While HTML5 provides support for the drag-and-drop effect, HTML has no provision for it.
+
+3. Drawing Geometric Shapes
+
+
+There is no way of drawing shapes like circles, rectangles, and triangles in HTML. The same can be drawn in HTML5.
+
+4. High-level Video and Audio Support
+
+High-level audio and video support isn't a part of the HTML specifications. HTML5 offers out-of-the-box high-level audio and video support.
+
+5. In-text Use
+
+MathML and SVG can be used in text in HTML5. The same is not possible in HTML.
+
+6. JavaScript Support
+
+HTML doesn't provide support for running J.S. within the web browser. HTML5 allows JavaScript to run in the background using Web Workers.
+
+7. Mobile-ready
+
+HTML is not mobile-ready. HTML5 specifications involve emphasis on mobile-friendliness.
+
+8. Storage
+
+
+There is no persistent storage option available in HTML. Only browser cache is used as temporary storage. HTML5 allows permanent storage with an application cache, Web SQL database, and web storage.
+
+9. Vector Graphics
+
+HTML5 provides support for Canvas, SVG, and other virtual vector graphics. Implementing vector graphics in HTML is only possible using third-party plugins like Silverlight and VML.
+
+4. Question:Enumerate important HTML5 technologies.
+Answer: HTML5 adds a number of new technologies to facilitate faster, better, and more interactive web page development. Important HTML5 technologies are:
+
+Canvas 2D
+CSS3
+Drag and Drop
+File API
+Geolocation API
+Microdata
+Offline Application
+SSE (Server-Sent Events)
+SVG (Scalable Vector Graphics)
+Web Intents
+Web Messaging
+Web Sockets
+Web Storage
+Web Workers
+
+5. Question: What do you understand by web workers?
+Answer: The addition of web workers brings multithreading capability to JavaScript. These are scripts running in the background that doesn't necessitate the web page to wait for their completion.
+
+Hence, a user can interact freely with the web page while a web worker runs in the background. In order to achieve parallelism, web workers leverage thread-like message passing.
+
+6. Question: What do you understand by HTML tags? How many tags are required to create a web page in HTML5?
+Answer: A set of characters enclosed within angular braces (<> or </>) that develop a formatted command for a web page is called an HTML tag. General syntax of an HTML5 tag is:
+
+<tag>.….</tag>
+
+Tags help in sending instructions to the web browser on what to display and how to display. A minimum of 3 tags are required for creating a web page in HTML5:
+
+<head>
+<body>
+<html>
+
+7. Question:Please explain the various formatting tags in HTML5.
+Answer: HTML5 has a total of 12 formatting tags:
+
+<b> - Used for making the text bold.
+<big> - Used for increasing the font size of the text by one unit.
+<del> - Used to display the deleted text.
+<em> - Used for making the text italic with added semantics importance.
+<i> - Used to make the text italic.
+<ins> - Used for displaying the added text.
+<mark> - Used for highlighting the text.
+<small> - Used to decrease the font size of the text by one unit.
+<strong> - Used for telling the browser that the text is important.
+<sub> - Used for making the text a subscript.
+<sup> - Used to make the text a superscript.
+<u> - Used for underlining the text.
+Note: HTML5 formatting tags are grouped into two categories:
+
+
+Logical tags: Used for adding some logical or semantic value to the text.
+Physical tags: Used for adding to the visual appearance to the text
+
+8. Question: Explain the <figure> tag in HTML5.
+Answer: The <figure> tag is used for specifying self-contained content, such as diagrams and photos, in an HTML5 web page. Although the content of the figure element is related to the main flow of the document, its position is independent of the same, i.e., if removed, it will not affect the main flow of the document.
+
+9. Question:Explain the various new tags introduced by HTML5 in Media Elements.
+Answer: HTML5 introduces the following five new tags in Media Elements:
+
+<audio>: Eliminates the need for additional plugins for playing audio content like audio streams and music.
+<embed>: Embeds an external application or content
+<source>: Adds multimedia resources like audio, picture, and video.
+<track>: Adds caption files or subtitles while the multimedia file is playing.
+<video>: Adds video content like embedded video content, movie clips, and videos.
+
+10. Question:What is a <meta> tag in HTML5?
+Answer: The <meta> tag offers metadata about the HTML5 document. This metadata is machine-parsable. Typically, meta elements are used for specifying:
+
+Author name
+Keywords
+Page description
+The metadata supplied by the <meta> tag is used by:
+
+Web browsers to know how to display content or reload a web page
+Search engines to know about keywords on a web page
+Other web services
+Note: HTML5 introduces a new method that allows web developers and designers to take control of the viewport with the <meta> tag.
+
+11. Question:Which tag is used for representing the result of a calculation? Explain its attributes.
+Answer: The <output> tag is used for representing the result of a calculation. It has three attributes:
+
+for - Represents the relationship among the elements used in the calculation and the result.
+form - Represents the form(s) the output element belongs to.
+name - Represents a name for the output element.
+
+12. Question:What is new about the relationship between the <header> and <h1> tags in HTML5?
+Answer: Prior to HTML5, only one <h1> element was used for the heading of the entire webpage. This changed in HTML5, as it specifies that the <h1> element represents the top-level heading of a section of the webpage, which can be the page <body>, an <article>, or a <section> element.
+
+According to the HTML5 specification, each <header> element must at least have one <h1> tag.
+
+13. Question:List all the tags removed from the HTML5.
+Answer: Following tags were removed in the HTML5:
+
+<acronym>
+<applet>
+<basefont>
+<big>
+<bigcenter>
+<center>
+<dir>
+<frame>
+<frameset>
+<font>
+<noframes>
+<strike>
+<tt>
+
+14. Question:How does an HTML specification differ from a web browser's implementation of the same?
+Answer: An HTML specification, like the HTML5 specification, defines a set of rules that all documents need to strictly follow in order to be considered valid as per the specification. The specification also offers instructions about how a web browser must interpret and render a valid document.
+
+A web browser is considered to support a specification if it is able to handle valid documents as per the rules mentioned in the specification. Although all of the major browsers support most of the HTML5 specification, no web browser supports the HTML5 specification to its entirety.
+
+
+Hence, it is all-important for the developers to confirm that the aspects of the specification that they are using must be supported by all the web browsers on which they want to display/deliver the content.
+
+As such, despite the improved specifications for HTML5, cross-browser support is still something that a developer should be very cautious about. The HTML5 specification defines certain rules that must be followed when coming across an invalid HTML5 document.
+
+Since invalid documents can contain anything, it is almost impossible for the HTML5 specification to handle all the possibilities comprehensively. Therefore, most decisions about handling malformed documents are entirely up to the web browser.
+
+15. Question:Please explain how to indicate the character set being used by a document in HTML5?
+Answer: The character set being used by an HTML5 document is indicated using the charset attribute of a <meta> tag inside the <head> element of the HTML5 document:
+
+<!DOCTYPE html>
+<html>
+<head>
+…
+...
+<meta charset="UTF-8">
+…
+…
+</head>
+</html>
+
+16. Question: Is it possible for a web page to have multiple <header> and <footer> elements?
+Answer: Yes, a webpage can have many <header> and <footer> elements. Both tags are specifically designed to serve their respective purposes with respect to their parent section.
+
+Hence, not only the page <body> must have the <header> and <footer> tags, but also does every <article> and <section> elements. Although a <footer> element might not be always necessary for every <article> and <section> tags, a <header> element must always be there.
+
+17. Question: What is the correct usage of the following HTML5 semantic elements:
+i) <article>
+
+ii) <footer>
+
+iii) <header>
+
+iv) <section>
+
+Answer:
+
+
+i) <article>
+
+This HTML5 element is intended to have a self-contained composition, being logically independent and capable to be created outside the web page without losing the concerned meaning. Suitable examples for the <article> element are blog posts, news snippets, and release updates.
+
+ii) <footer>
+
+We use the <footer> element to hold information meant to appear at the end of a particular section of a web page. Typically, it contains additional information about the section. Suitable examples for this HTML5 element include an author bio and helpful links.
+
+iii) <header>
+
+This essential HTML5 element contains introductory as well as navigation information about a certain section or the body of a web page. Suitable examples for the <header> element are author name, publication date, number of views, and table of contents.
+
+iv) <section>
+
+Intended for holding content having a common purpose or theme, the <section> element serves as a flexible container in HTML5. The comments section, sharing section, and related articles section are some of the best examples of this HTML5 element.
+
+18. Question: Write HTML5 code to implement a <video> tag for embedding a video stored at https://www.hackr.io/blog/html5-interview-questions/sample_video.mp4. The video must have a width of 640 pixels and a height of 360 pixels. Also, provide the user with controls.
+Answer: One way to implement the above-mentioned is:
+
+<video src="https://www.hackr.io/blog/html5-interview-questions/sample_video.mp4" width="640" height="360" controls></video>
+Another way of implementing the same (with a separate <source> tag inside the <video> element) is:
+
+<video width="640" height="360" controls>
+<source src="http://www.hackr.io/blog/html5-interview-questions/sample_video.mp4">
+</video>
+
+19. Question:Please explain whether an <article> element can have <section> elements and vice-versa.
+Answer: Yes, an <article> element can have <section> element(s) and a <section> element can also have <article> elements. For example, a user panel for a website can have multiple <section> elements, intended for blog, analytics, payment options, news, et cetera.
+
+Now, the <section> element for the blog can have multiple <article> elements to accommodate various articles. Further, each of these <article> elements can have two <section> elements, one for the comments section and the other for sharing section.
+
+20. Question:Explain the difference between Canvas and SVG elements.
+Answer:Following are the various differences between <canvas> and <svg> elements:
+
+1. API Animation
+
+Canvas has no provision for API animation. SVG, on the contrary, is capable of API animation.
+
+2. Change Accommodation
+
+Each drawn shape in SVG is remembered as an object by the web browser. If the attributes pertaining to an SVG object are changed, the browser automatically re-renders the shape.
+
+The web browser forgets once the graphic is drawn in Canvas. If there is a change in the position of a Canvas graphic, the complete scene requires redrawing. While modification in Canvas is only allowed through the script, SVG supports modification via script as well as CSS.
+
+3. Definition
+
+SVG stands for Scalable Vector Graphics. It features many methods for drawing bitmap images, boxes, circles, paths, and text.
+
+SVG is a language for describing 2D graphics, where the <svg> element is a container for SVG graphics. Canvas allows users to draw 2D graphics on the fly using J.S.
+
+4. Dependency
+
+SVG doesn't depend on the resolution, while Canvas completely depends on the same.
+
+5. How is it handled?
+
+SVG is XML-based, meaning that each element is available within the SVG DOM. For an element, you can attach several J.S. event handlers. Canvas is rendered pixel by pixel, i.e., it is pixel-based. There is no support for event handlers in <canvas> elements.
+
+6. Ideal for
+
+While Canvas is suitable for small rendering areas and games graphics, SVG is the best option for large rendering areas and printing with high-quality at any resolution.
+
+7. Scalability
+
+Canvas has poor scalability. SVG, however, has better scalability.
+
+21. Question:Write the HTML5 code for implementing a rectangular box using the canvas element.
+Answer:
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>HTML Canvas Example</title>
+<style>
+#acanvas
+</style>
+</head>
+<body>
+<canvas id = "acanvas" width = "640" height = "360"></canvas>
+</body>
+</html>
+The output will appear like this:
+
+22. Question:What do you understand by <!DOCTYPE>? Name the types of DOCTYPE available in HTML5.
+Answer:Every HTML5 web page starts with the <!DOCTYPE> declaration. It lets the web browser understand the information that it must display. The DOCTYPE declaration is concise and case-insensitive in HTML5. HTML5 provides support for only one DOCTYPE:
+
+<!DOCTYPE html>
+
+23. Question: What will happen if the doctype is not specified in an HTML web page?
+Answer:If the doctype is not specified in an HTML web page, then the web browser will be unable to interpret the new HTML5-specific tags.
+
+24. Question: List the various techniques for optimizing website assets.
+Answer: To optimize website assets, one needs to decrease:
+
+The download size, and
+The total number of HTTP requests that are made
+Following techniques can be used for optimizing website assets:
+
+CDN hosting
+File compression
+File concatenation
+Offloading assets
+Re-organizing
+Refining code
+
+25. Question:Please explain the Geolocation API in HTML5. How will you create a Geolocation object?
+Answer: The Geolocation API in HTML5 allows users to share their location with selected websites. J.S. is capable of capturing a user's latitude and longitude and sending the same to the backend server.
+
+Doing so enables location-aware features like finding local places of interest and finding out one's location on the map. A new geolocation object can be created using the following code:
+
+var geolocation = navigator.geolocation;
+
+The Geolocation object is actually a service object. It allows widgets to retrieve information about the geographical location of a user's device. Most browsers and mobile devices provide support for the Geolocation API. The API works with a new property of the global navigator object.
+
+26. Question: Write HTML5 code to demonstrate the use of Geolocation API.
+Answer:The Geolocation API uses the navigator.geolocation.get current position() method for getting a user’s position and geographical coordinates i.e. longitude and latitude. Following code example demonstrates this:
+
+<!DOCTYPEhtml>
+
+<html>
+<body>
+<p>Click the My Location button to know your location.</p>
+<button onClick="getLocation()"> My Location </button>
+<p id="location"></p>
+<script>
+var x = document.getElementById("location");
+function getLocation()
+{
+if (navigator.geolocation)
+{
+navigator.geolocation.getCurrentPosition(showPosition);
+}
+else {
+x.innerHTML = "Geolocation is not supported by this browser.";
+}
+}
+function showPosition (position) {
+x.innerHTML = “Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</body>
+</html>
+The output will appear like this:
+
+The code will first check whether Geolocation is supported or not. An error message will be displayed if Geolocation is not supported. Otherwise, the code will run the getCurrentPosition() method. It will return the coordinates of the user. The show position() function will get the longitude and latitude of the user.
+
+27. Question: Explain the difference between div and span.
+Answer: Both div and span are used for giving out the output. While span gives the output with display: inline, div gives output with display: block. Typically, span is used when there is the need to display the elements one after the other, i.e., in a line.
+
+28. Question: What do you understand by HTML5 Web Storage? Is it any better than Cookies?
+Answer: Prior to HTML5, web pages were able to store data locally within a browser using cookies. The HTML5 introduces Web Storage that allows a webpage to do the same as that of the cookies. Web Storage, however, is faster and more secure than cookies.
+
+The HTML5 Web Storage is faster because the data isn't included with every server request. Instead, it is used when asked for. A web page can only access the data stored by itself, which is stored in name/value pairs
+
+Another important distinction between the HTML5 Web Storage and Cookies is that:
+
+Web Storage never transfers the data to the server, and
+When compared to cookies, the storage limit for the HTML5 Web Storage is much larger, at least 5MB, and at max 10MB.
+Question: Please explain localStorage and sessionStorage.
+Answer: Both localStorage and sessionStorage are scoped to the document origin. This ensures that documents with different origins never share stored objects. Unlike localStorage, sessionStorage is also scoped on a per-window basis.
+
+If, for example, two browser tabs are displaying documents from the same origin, both will have separate sessionStorage data, i.e., the scripts running in one browser tab can't read or overwrite the data written by scripts in the other. This is true even if both browser tabs are visiting the totally same page and are running the absolutely same scripts.
+
+The difference between the localStorage and the sessionStorage lies on the basis of the lifetime and the scope. Data stored via localStorage is permanent, i.e., it doesn't expire and remains stored on a computer until:
+
+A web app deletes it, or
+The user requests the browser to delete it
+Data stored via sessionStorage, on the other hand, gets deleted when the window or tab concerning the same is closed. sessionStorage has the same lifetime as that of the top-level window or browser tab that has the script running, which stored the data.
+
+29. Question: Why do you think the addition of drag-and-drop functionality in HTML5 is important? How will you make an image draggable in HTML5?
+Answer: When it comes to UI interaction, the drag-and-drop is essential functionality. Almost all modern U.I.s have it. It makes copying, moving, and linking an object, such as an image or a link, very easy.
+
+To make an image draggable in HTML5, we need to set the draggable image attribute true i.e.:
+
+type = <img draggable = "true">
+
+30. Question: Please explain the new form input types in HTML5.
+Answer: The HTML5 introduces the following 14 new form input types:
+
+Color - Select multiple colors using type = "color"
+Date - Pick a date by using type = "date."
+Datetime - Combination of date and time. Pick a date and time by using type = "datetime"
+Datetime-local - Doesn't include the timezone. Pick a date and time by using type = "datetime-local."
+Email - Enter one or more email addresses using type = "email."
+Month - Pick a month by using type = "month."
+Number - Inserts a numerical value with additional attributes like min and max. Enter one or many numerical values using type = "number."
+Search - Allows searching queries by inputting text. Enter one or many search queries by using type = "search."
+Tel - Allows different phone numbers. Each phone number is validated by the client-side. Enter a phone number by using type = "tel."
+Placeholder - Displays a short hint in the input fields before entering a value. Write a short hint in the input field using type = "placeholder."
+Range - Inserts a numerical value within a specific range. Enter a numerical value within a range using type = "range."
+Time - Pick a time by using type = "time."
+Url - URL input type used for the web address. Use one or more attributes using type = "url"
+Week - Pick a week by using type = "week."
